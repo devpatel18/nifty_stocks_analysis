@@ -24,7 +24,7 @@ for count in range(len(symbols)):
 st.sidebar.title("Select Stock")
 selected_stock = st.sidebar.selectbox("Select Ticker", symbols)
 n_years = st.sidebar.slider("Years of prediction:",1,4)
-period_options = ['10y','5y','2y','1y','ytd','6mo','3mo','1mo','5d']
+period_options = ['1y','2y','5y','10y','ytd','6mo','3mo','1mo','5d']
 sel_period = st.sidebar.selectbox("Select Period", period_options)
 period = n_years * 365
 
