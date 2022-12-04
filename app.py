@@ -53,7 +53,10 @@ col3.metric("Low",round(data['Low'].min()))
 lower = data['Close'][0]
 upper = data['Close'].iloc[-1]
 return_percent = round((upper-lower)/lower * 100,2)
-col4.metric("PE Ratio",sel_ticker.info['trailingPE'])
+try:
+    col4.metric("PE Ratio",sel_ticker.info['trailingPE'])
+except:
+    col4.metric("PE Ratio","-")
 
 if return_percent>0:
     col5_color = 'GREEN'
