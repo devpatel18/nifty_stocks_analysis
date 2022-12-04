@@ -1,4 +1,4 @@
-# Nifty 50 stocks Analysis
+# Nifty 50 Stocks Analysis
 - Created an interactive dashboard for Nifty50 stocks using Streamlit and Plotly and provided completely automated forecast using Prophet for prediction
 - Used yfinance api as a source for data
 ## Installation
@@ -15,7 +15,7 @@ To access and use the application,donwoload or clone the repository and then run
 
 The application has been deployed in the Streamlit Cloud.You can access here: [https://devpatel18-nifty-stocks-analysis-app-w28wm9.streamlit.app/](https://devpatel18-nifty-stocks-analysis-app-w28wm9.streamlit.app/)
 
-The app might go to sleep due to inactive traffic, wake up the app in that case
+NOTE : The app might go to sleep due to inactive traffic, wake up the app in that case
 
 ## Screenshots
 <img width="1278" alt="image" src="https://user-images.githubusercontent.com/87890518/205501614-d9dd337e-d45e-4b02-af59-4a157eb587e5.png">
@@ -29,7 +29,7 @@ The app might go to sleep due to inactive traffic, wake up the app in that case
 If you find this repo useful , give it a star so as many people can get to know it.
 
 ## Credits
-https://python.plainenglish.io/a-simple-guide-to-plotly-for-plotting-financial-chart-54986c996682
-https://www.datapine.com/blog/financial-graphs-and-charts-examples/
-https://www.youtube.com/watch?v=0E_31WqVzCY
+- https://python.plainenglish.io/a-simple-guide-to-plotly-for-plotting-financial-chart-54986c996682
+- https://www.datapine.com/blog/financial-graphs-and-charts-examples/
+- https://www.youtube.com/watch?v=0E_31WqVzCY
 
