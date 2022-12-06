@@ -47,7 +47,7 @@ data_load_state.text("Done!")
 
 st.subheader(sel_ticker.info['longName'])#Fullname
 col1,col2,col3,col4,col5 = st.columns(5)
-col1.metric("Closing Price on " + str(data.reset_index().iloc[-1]['Date'])[0:10], round(data.iloc[-1]['Close'],2), round((data.iloc[-1]['Open']-data.iloc[-1]['Close']),2))
+col1.metric("Closing Price on " + str(data.reset_index().iloc[-1]['Date'])[0:10], round(data.iloc[-1]['Close'],2), round((data.iloc[-1]['Close']-data.iloc[-1]['Open']),2))
 col2.metric("High",round(data['Close'].max()))
 col3.metric("Low",round(data['Low'].min()))
 lower = data['Close'][0]
