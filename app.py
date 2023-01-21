@@ -149,6 +149,7 @@ plot_raw_data()
 
 # Predict forecast with Prophet.
 df_train = data.reset_index()[['Date','Close']]
+df_train['Date'] = df_train['Date'].astype('str').apply(func = get_date)
 df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
 m = Prophet()

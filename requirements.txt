@@ -1,7 +1,7 @@
 htbuilder==0.6.1
-pandas==1.4.1
-plotly==5.6.0
-prophet==1.1.1
-streamlit==1.8.0
+pandas==1.5.2
+plotly==5.12.0
+prophet==1.1.2
+streamlit==1.16.0
 ta==0.10.2
-yfinance==0.1.93
+yfinance==0.2.4
