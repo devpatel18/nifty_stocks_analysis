@@ -4,4 +4,4 @@ plotly==5.12.0
 prophet==1.1.2
 streamlit==1.16.0
 ta==0.10.2
-yfinance==0.2.12
+yfinance==0.2.13
